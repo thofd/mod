@@ -126,8 +126,8 @@ $System_Config['node_offline_warn']='true';
 $System_Config['login_warn']='true';
 
 #端口池
-$System_Config['min_port']='1024';
-$System_Config['max_port']='65535';
+$System_Config['min_port']='15000';
+$System_Config['max_port']='50000';
 
 #两种方式相对于ss端口的偏移
 $System_Config['pacp_offset']='-20000';
@@ -200,19 +200,19 @@ $System_Config['email_verify_iplimit']='10';
 
 
 #注册时默认加密方式
-$System_Config['reg_method']='chacha20-ietf';
+$System_Config['reg_method']='aes-256-cfb';
 
 #注册时默认协议
-$System_Config['reg_protocol']='auth_aes128_md5';
+$System_Config['reg_protocol']='origin';
 
 #注册时默认协议参数
 $System_Config['reg_protocol_param']='';
 
 #注册时默认混淆方式
-$System_Config['reg_obfs']='http_simple';
+$System_Config['reg_obfs']='plain';
 
 #注册时默认混淆参数
-$System_Config['reg_obfs_param']='jd.hk';
+$System_Config['reg_obfs_param']='';
 
 #注册时默认禁止访问IP列表，半角英文逗号分割
 $System_Config['reg_forbidden_ip']='127.0.0.0/8,::1/128';
@@ -285,7 +285,7 @@ $System_Config['telegram_token']='';
 $System_Config['telegram_chatid']='';
 
 #多用户混淆参数后缀
-$System_Config['mu_suffix']='jd.hk';
+$System_Config['mu_suffix']='';
 
 #多用户混淆参数表达式，%5m代表取用户特征 md5 的前五位，%id 代表用户id,%suffix 代表上面这个后缀。
 $System_Config['mu_regex']='%5m%id.%suffix';
