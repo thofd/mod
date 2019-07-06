@@ -3,9 +3,9 @@
 //  ss-panel v3 配置
 //
 // !!! 修改此key为随机字符串确保网站安全 !!!
-$System_Config['key'] = 'randomkey';
+$System_Config['key'] = 'randofggrmkey';
 $System_Config['debug'] =  'false';  //  正式环境请确保为false
-$System_Config['appName'] = '91vps';             //站点名称
+$System_Config['appName'] = 'DDDoyowerokyslllaieeedw';             //站点名称
 $System_Config['baseUrl'] = 'https://91vps.win';            // 站点地址
 $System_Config['timeZone'] = 'PRC';        // PRC 天朝时间  UTC 格林时间
 $System_Config['pwdMethod'] = 'sha256';       // 密码加密   可选 md5,sha256
@@ -19,7 +19,7 @@ $System_Config['tokenDriver'] = 'db';
 //$System_Config['version'] = '<a href="https://www.zhaoj.in">Glzjin</a> mod-2016042210000';
 
 // mu key 用于校验ss-go mu的请求,半角逗号分隔
-$System_Config['muKey'] = 'mupass';
+$System_Config['muKey'] = 'marding';
 // 邮件
 $System_Config['mailDriver'] = 'smtp';   // mailgun or smtp or sendgrid
 
@@ -34,23 +34,23 @@ $System_Config['user_conn']='2';
 
 
 #用户注册速度默认限制，0为不限制
-$System_Config['user_speedlimit']='2';
+$System_Config['user_speedlimit']='0';
 
 
 #邀请新用户获得流量奖励，单位G
-$System_Config['invite_gift']='2';
+$System_Config['invite_gift']='0';
 
 #新用户通过私人邀请链接注册，获得奖励金额（鼓励消费）
-$System_Config['invite_get_money']='10';
+$System_Config['invite_get_money']='0';
 
 // 用户签到设置
-$System_Config['checkinMin'] = '100';       // 签到最少流量 单位MB
-$System_Config['checkinMax'] = '200';       // 签到最多流量
+$System_Config['checkinMin'] = '0';       // 签到最少流量 单位MB
+$System_Config['checkinMax'] = '0';       // 签到最多流量
 
-$System_Config['defaultTraffic'] = '10';      // 用户初始流量 单位GB
+$System_Config['defaultTraffic'] = '100';      // 用户初始流量 单位GB
 
 // 注册后获得的邀请码数量
-$System_Config['inviteNum'] = '5';
+$System_Config['inviteNum'] = '0';
 
 # database 数据库配置
 $System_Config['db_driver'] = 'mysql';
